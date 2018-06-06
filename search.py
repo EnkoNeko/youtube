@@ -4,7 +4,7 @@ import requests as re
 from bs4 import BeautifulSoup
 import codecs as codecs
 
-with open('input3.txt') as infile:
+with open('input.txt') as infile:
     searchtext = infile.read()
 
 for searchquery in searchtext.splitlines():
