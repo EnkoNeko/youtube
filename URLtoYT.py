@@ -16,4 +16,4 @@ with open ("playlist.txt", "r") as playl:
 r = requests.get(search.strip())
 id = r.url.split("=")[2]
 full = "https://www.youtube.com/playlist?list={}&disable_polymer=true".format(id)
-print(full, "\nIf multiple csv.txt files, edit file number in \"sep.py\", and run from there")
+print(full, "\nIf multiple csv.txt files, edit file number in \"URLtoYT.py\", and run from there")
