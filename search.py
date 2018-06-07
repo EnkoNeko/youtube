@@ -1,4 +1,4 @@
-# Takes in an input file of youtube searches, then outputs the URLs to one file, and the URLs & video title to another file
+# input.txt contains YT search queries, outputs the URLs to one file, and the URLs & video title to another file
 
 import requests as re
 from bs4 import BeautifulSoup
