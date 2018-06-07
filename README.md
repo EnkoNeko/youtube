@@ -9,8 +9,10 @@ URLtoYT.py - Converts selected URLs into a YT playlist
 s2Seer.sh - Initialises and manages the 2nd stage  
 search.py - Takes in queries, spits out URLs & titles  
 
-urls.txt - Necessary text file
+urls.txt - Necessary text file, holds full URLs
 
 # To do
 System for "culling" URLs  
+Code t download the playlist?  
 Streamline all code  
+
