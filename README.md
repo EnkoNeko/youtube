@@ -1,4 +1,4 @@
-# Description
+# Flow
 1. List of YouTube search queries in input.txt
 2. search.py finds on YT, outputs the URLs to out1.txt and the URLs & Video title to out2.txt
 3. cull.py trims the bad videos for later consideration, ?removes same URLs from out1.txt? (not done)
