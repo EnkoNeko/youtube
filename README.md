@@ -17,7 +17,11 @@ urls.txt - Necessary text file, holds full URLs
 
 # To do
 System for "culling" URLs  
+Compare differences between trims.txt and out2.txt, delete duplicates from out2.txt  
+e.g - https://stackoverflow.com/questions/7537099/comparing-two-text-files-and-remove-duplicates-in-python
+
 Code to download the playlist?  
+
 
 Maybe -  
 Initial conversion from Spotify playlist?  
