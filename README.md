@@ -13,6 +13,5 @@ urls.txt - Necessary text file, holds full URLs
 
 # To do
 System for "culling" URLs  
-Code t download the playlist?  
+Code to download the playlist?  
 Streamline all code  
-
