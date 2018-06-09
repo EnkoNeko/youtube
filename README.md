@@ -1,7 +1,7 @@
 # Flow
 1. List of YouTube search queries in input.txt
 2. search.py finds on YT, outputs the URLs to out1.txt and the URLs & Video title to out2.txt
-3. cull.py trims the bad videos for later consideration, ?removes same URLs from out1.txt? (not done)
+3. cull.py trims the bad videos for later consideration (Copying done, out2.txt deletion not)
 4. Good video URLs in urls.txt
 5. grep.sh trims off urls.txt video IDs into allCSV.csv, separates further into smaller txt files and runs URLtoYT.py (streamline this)
 6. URLtoYT.py converts the ID chunks into a playlist and prints playlist ID
@@ -16,11 +16,11 @@ cull.py - Trims unwanted URLs to a separate file for later
 urls.txt - Necessary text file, holds full URLs
 
 # To do
-System for "culling" URLs  
-Compare differences between trims.txt and out2.txt, delete duplicates from out2.txt  
-e.g - https://stackoverflow.com/questions/7537099/comparing-two-text-files-and-remove-duplicates-in-python
-
-Code to download the playlist?  
+search.py -> out1.txt & out2.txt: could output to one text file, then regex the URL  
+Culling - Compare differences between trims.txt and out2.txt, delete duplicates from out2.txt ([example](https://stackoverflow.com/questions/7537099/comparing-two-text-files-and-remove-duplicates-in-python))  
+grep.sh - skip allCSV.csv? straight from urls.txt to smaller ID chunks
+        - make grep.sh manage all programs?  
+URLtoYT.py - clean this code up
 
 
 Maybe -  
