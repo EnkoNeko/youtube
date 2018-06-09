@@ -18,7 +18,7 @@ urls.txt - Necessary text file, holds full URLs
 # To do
 search.py -> out1.txt & out2.txt: could output to one text file, then regex the URL  
 Culling - Compare differences between trims.txt and out2.txt, delete duplicates from out2.txt ([example](https://stackoverflow.com/questions/7537099/comparing-two-text-files-and-remove-duplicates-in-python))  
-grep.sh - skip allCSV.csv? straight from urls.txt to smaller ID chunks
+grep.sh - skip allCSV.csv? straight from urls.txt to smaller ID chunks  
         - make grep.sh manage all programs?  
 URLtoYT.py - clean this code up
 
