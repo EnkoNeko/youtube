@@ -5,8 +5,7 @@ search.py finds on YT, outputs the URLs to out1.txt and the URLs & Video title t
 copy.py copies unwanted URLs to trims.txt  
 del.py deletes the original unwanted URLs  
 
-Good video URLs in urls.txt  
-grep.sh trims off urls.txt video IDs into allCSV.csv, separates further into smaller txt files and runs URLtoYT.py (streamline this)  
+grep.sh trims off the good video IDs in out2.txt into allCSV.csv, separates further into smaller txt files and runs URLtoYT.py (streamline this)  
 URLtoYT.py converts the ID chunks into a playlist and prints playlist ID  
 
 
@@ -22,7 +21,7 @@ urls.txt - Necessary text file, holds full URLs
 # To do  
 search.py -> out1.txt & out2.txt (search.py could output to one text file, then regex the URL)  
 Combine copy.py and del.py to form cull.py  
-grep.sh - skip allCSV.csv? Straight from urls.txt to smaller ID chunks    
+grep.sh - skip allCSV.csv? Straight from out2.txt to smaller ID chunks    
 grep.sh - make grep.sh manage all programs?    
 URLtoYT.py - clean this code up  
 
